@@ -1,0 +1,80 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("src\assets\images\AdobeStock_200634426-scaled.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    margin-top: 5px;
+}
+
+.text {
+    width: 1100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    line-height: 60px;
+
+}
+.btn1:link,
+.btn1:visited{
+    text-decoration: none; 
+    color:  #948f8a;
+    font-size: 15px;
+    font-family: sans-serif;
+    border:2px solid #948f8a ;
+    border-radius: 200px;
+     padding: 10px 10px;
+     margin-left: 200px;
+
+}
+.box{
+    display:flex;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+.box1{
+    width: 80%;
+    height: 300px;
+
+}
+
+    .text1{
+        background-color: aqua;
+        height: 140px;
+    }
+    .text2{
+        margin-top: 20px;
+        background-color: aqua;
+        height: 140px;
+    }
+.box2{
+    background-color: aqua;
+    width: 40%;
+    height: 300px;
+    margin-left:3% ;
+
+}
+h1,p{
+    margin-left: 15px;
+  
+}
+.text-muted{
+    background-color: rgb(52, 84, 145);
+    height: 50px;
+}
+.p{
+    text-align: center;
+    color: #fff;
+   
+}
+  
+  
+   

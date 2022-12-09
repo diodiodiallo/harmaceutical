@@ -1,0 +1,29 @@
+<body>
+    
+
+<app-navbar></app-navbar>
+
+<div class="box container">
+    <div class="box1">
+        
+        <div class="text1">
+            <img src="{{product.image}}" class="card-img-top" alt="...">
+        </div>
+       
+    </div>
+    <div class="box2">
+        <br>
+        <h1>{{product.name}}</h1>
+        <p><strong> Salt composition:</strong><br>{{product.salt}}</p>
+        <p><strong> About:</strong><br>{{product.about}}</p>
+        <p><strong> Use:</strong><br>{{product.use}}</p>
+        <p><strong> Side Effects:</strong><br>{{product.side}}</p>
+        <h4><strong> note:</strong>{{product.note}}</h4>
+    
+    </div>
+
+</div>
+<div class="card-footer text-muted">
+    <p class="p"> Copyright © pharmacy 2022</p>
+   </div>
+</body>

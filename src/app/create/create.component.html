@@ -1,0 +1,49 @@
+<app-navbar></app-navbar>
+<body>
+   
+    <div class="container">
+        <br> <br> <br> <br>
+       
+<form>
+    <div class="row">
+    <div class="col-sm-4">
+        <label for="">Image:</label>
+        <input class="form-control" type="text" name="image" [(ngModel)]="product.image" placeholder="Image"><br>
+</div>
+        <div class="col-sm-4">
+            <label for="">Name:</label>
+            <input class="form-control" type="text" name="name" [(ngModel)]="product.name" placeholder="Name"><br>
+            </div>
+            <div class="col-sm-4">
+                <label for="">Salt Composition:</label>
+                <input class="form-control" type="text" name="salt" [(ngModel)]="product.salt" placeholder="salt"><br>
+        </div>
+        <div class="col-sm-4">
+            <label for="">About:</label>
+            <input class="form-control" type="text" name="about" [(ngModel)]="product.about" placeholder="about"><br>
+    </div><br>
+        <div class="col-sm-4">
+            <label for="">Use:</label>
+            <input class="form-control" type="text" name="use" [(ngModel)]="product.use" placeholder="Use"><br>
+        </div>
+        <div class="col-sm-4">
+            <label for="">Side Effects:</label>
+            <input class="form-control" type="text" name="side" [(ngModel)]="product.side" placeholder="side"><br>
+        
+        </div>
+        <div class="col-sm-4">
+            <label for="">Note:</label>
+            <input class="form-control" type="text" name="note" [(ngModel)]="product.note" placeholder="note"><br>
+        
+        </div>
+       
+    <div class="col-sm-6 text-right">
+        <input class="btn btn-action" type="submit" (click)="saveProduct()"> 
+    </div>  
+   </div>
+   </form>
+   </div>
+   <div class="card-footer text-muted">
+    <p class="p"> Copyright © pharmacy 2022</p>
+   </div>
+   </body>

@@ -1,0 +1,74 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Buccothymol",
+      "image": "assets/images/دواء buccothymol,د.jpg",
+      "use": "for mouth",
+      "about": "This medication is indicated for the local adjunctive treatment of mouth ailments or for care after surgery of the oral cavity.",
+      "side": "Gastrointestinal disorders",
+      "salt": "Buccothymol 150ml",
+      "note": "cghjklkjhgvcfghjklkjhfghyjukl;,nbghj"
+    },
+    {
+      "id": 2,
+      "name": "Appramol",
+      "image": "assets/images/appramol.jpg",
+      "use": "for mouthwash",
+      "about": "This medication is indicated for the local adjunctive treatment of mouth ailments or for care after surgery of the oral cavity.",
+      "side": "Gastrointestinal disorders",
+      "salt": "Buccothymol 150ml",
+      "note": "cghjklkjhgvcfghjklkjhfghyjukl;,nbghj"
+    },
+    {
+      "id": 3,
+      "name": "Activox-Menthe",
+      "image": "assets/images/activox-menthe.jpg",
+      "use": "HIV infection treatment",
+      "about": "Abacavir is a very potent nucleoside reverse transcriptase inhibitor for the treatment of HIV infection.",
+      "side": "unexpected fatigue, diarrhea, nausea",
+      "salt": "Abacavir 600mg/300mg",
+      "note": "cghjklkjhgvcfghjklkjhfghyjukl;,nbghj"
+    },
+    {
+      "id": 3,
+      "name": "Nidazole",
+      "image": "assets/images/nidazole.jpg",
+      "use": "HIV infection treatment",
+      "about": "Abacavir is a very potent nucleoside reverse transcriptase inhibitor for the treatment of HIV infection.",
+      "side": "unexpected fatigue, diarrhea, nausea",
+      "salt": "Abacavir 600mg/300mg",
+      "note": "cghjklkjhgvcfghjklkjhfghyjukl;,nbghj"
+    },
+    {
+      "id": 3,
+      "name": "Nidazole",
+      "image": "assets/images/téléchargement.jpg",
+      "use": "HIV infection treatment",
+      "about": "Abacavir is a very potent nucleoside reverse transcriptase inhibitor for the treatment of HIV infection.",
+      "side": "unexpected fatigue, diarrhea, nausea",
+      "salt": "Abacavir 600mg/300mg",
+      "note": "cghjklkjhgvcfghjklkjhfghyjukl;,nbghj"
+    },
+    {
+      "image": "https://thumbs.dreamstime.com/b/produits-pharmaceutiques-de-sort-9966528.jpg",
+      "name": "doliprane",
+      "salt": "500g de composition",
+      "about": "fgiohgfdr gyhfgddgdhddd gbhjkdtyuik hhhfyfgfbfghf unrgdftfc,v lldjdgtdgnhc ggffdddj tyuioltfdbfh ",
+      "use": "dfghjkgfghjk dfghjgfdfghjkjhgfg",
+      "side": "fghjhgdjkbvcdfghjh",
+      "note": "dfghjkgfdghjkjvfghjklsdcvbn,nhgfgvbn,",
+      "id": 5
+    },
+    {
+      "name": "Zaditen.",
+      "salt": "309,426 g/mol",
+      "about": "La kétotifène est une substance chimique employée comme antagoniste des récepteurs H₁ de l'histamine. Elle est utilisée dans le traitement de l'allergie, de l'asthme, du rhume des foins et de l'angiœdème. Elle est commercialisée sous forme de fumarate de kétofène.",
+      "note": "d'un anti-allergique qui réduit les symptômes de l'asthme",
+      "use": "d'un anti-allergique qui réduit les symptômes de l'asthme",
+      "side": "ossibilité de maux de tête, de somnolence",
+      "image": "https://assets.apoly.de/medikamente-de-pzns/1000/01478293.png",
+      "id": 6
+    }
+  ]
+}

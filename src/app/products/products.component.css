@@ -1,0 +1,45 @@
+.card{
+    background-color:rgb(112, 162, 196);
+    margin:30px;
+    width: 300px;
+}
+img{
+    margin-top: 20px;
+    height: 200px;
+    
+}
+li{
+    margin-left: 20px;
+}
+button{
+    border: white;
+    border-radius: 10px;
+    width: 70px;
+    font-size: 14px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: dashed;
+    color: grey;
+    margin-top:40px;
+}
+.text-muted{
+    background-color: rgb(52, 84, 145);
+    height: 50px;
+}
+.p{
+    text-align: center;
+    color: #fff;
+   
+}
+input{
+    width: 300px;
+    border:solid rgb(19, 146, 206);
+}
+.search{
+    margin-left: 150px;
+    width: 100px;
+    background-color: rgb(19, 146, 206);
+    color: #fff;
+}

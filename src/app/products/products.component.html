@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<br><br>
+<div class="container">
+  <div class="form-group row">
+    <div class="col-sm-2 ">
+      <input type="text" [(ngModel)]="SearchValue"  class="form-control" id="search"/>
+     </div>
+    <button  for="search"class="col-sm-2 col-form-label search">Search</button>
+  </div> 
+  <br><br>
+  <div class="row">
+    <div class="card col-md-4" *ngFor="let prod of product | search:SearchValue">
+      <img src="{{prod.image}}">
+      <div class="card-body">
+        <h5 class="card-title" [ngStyle]="{color:'rgb(68, 5, 5)'} ">{{prod.name | titlecase }}</h5>
+        <hr>
+        <p class="card-text">
+          <li> <strong>Use:</strong>{{prod.use | titlecase}}<br></li>
+          <button style="width:80px;background-color: antiquewhite;" routerLink="/detail/{{prod.id}}">See Details</button>
+         &nbsp;<button style="background-color: rgb(179, 13, 21);"  (click)="delete(prod.id)" >Delete</button>
+          &nbsp;<button style="background-color: rgb(156, 91, 6);"  routerLink="/update/{{prod.id}}" >Update</button>
+
+        </div>
+    </div>
+  </div>
+  </div>
+ 
+
+
+<div class="card-footer text-muted">
+  <p class="p"> Copyright © pharmacy 2022</p>
+</div>

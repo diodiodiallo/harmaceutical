@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("src\assets\images\medicine-research-pharmaceutical-background-260nw-412781575.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+   
+    }
+    .container{
+        width: 1900px;   
+       
+    }
+    input{
+        width: 300px;
+        border: blue;
+        
+       
+    }
+    .btn{
+        width: 300px;
+        border: blue;
+        background-color: rgb(117, 189, 236);
+        margin-top: 40px;
+       
+    }
+    label{color: wheat;
+    padding: 10px;}
+    .text-muted{
+        background-color: rgb(52, 84, 145);
+        height: 50px;
+        text-align:center ;
+        margin-top: 50px;
+       
+    }
+    .p{
+color: white;
+    }
